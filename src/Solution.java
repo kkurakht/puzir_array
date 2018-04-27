@@ -1,5 +1,6 @@
 /**
  * Created by K.Kurakhtenkov on 15.02.2018.
+ * 
  */
 import java.util.Scanner;
 public class Solution {
@@ -28,7 +29,7 @@ public class Solution {
         System.out.println("Введите длину массива целых чисел: ");
         int size = input.nextInt(); // Читаем с клавиатуры размер массива и записываем в size
         int array[] = new int[size]; // Создаём массив int размером в size
-        System.out.println("Введите элемент массива:");
+        System.out.println("Введите элемены массива:");
     /*Пройдёмся по всему массиву, заполняя его*/
         for (int i = 0; i < size; i++) {
             array[i] = input.nextInt(); // Заполняем массив элементами, введёнными с клавиатуры
