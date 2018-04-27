@@ -1,6 +1,6 @@
 /**
  * Created by K.Kurakhtenkov on 15.02.2018.
- * 
+ *
  */
 import java.util.Scanner;
 public class Solution {
